@@ -12,9 +12,9 @@
 
     <div class="row">
       <div class="col s12 center-align white-text" style="padding:10px;background:linear-gradient(120deg,#F62459,#736598 85%);min-height:500px;padding-left:10%">
-        <div>
+        <div id="particles-js" class="myCanvas"></div>
         <div id="theVerticle" class="col s1 ">
-          <label class="vertical white-text">Facebook</label>
+          <label class="vertical white-text">Email</label>
           <label class="vertical white-text">Twitter</label>
           <label class="vertical white-text">Github</label>
         </div>
@@ -22,16 +22,16 @@
           <h1 class="white-text left-align titleFont title"><b>Christian Bryant</b></h1>
           <h3 class="white-text left-align subTitle">Full Stack Developer</h3>
         </div>
-      </div>
+
       </div>
     </div>
 
     <div class="row">
-      <div class="col s12" style="padding-left:10%;padding-right:13%">
-        <div class="col s1">
-          <label class="vertical grey-text">Basic Info</label>
+      <div class="col s12" style="padding-left:10%;padding-right:13%;padding-top:5%;padding-bottom:5%">
+        <div class="col s1" style="padding-top:3%;">
+          <label class="vertical grey-text" style='font-size:large'>Basic Info</label>
         </div>
-        <div class="col s11">
+        <div class="col s11" >
           <hr class="myHR">
           <Br>
           <h4 class="robo">I am currently working as freelance web developer based in Richmond, Virginia.</h4>
@@ -57,21 +57,80 @@
             <div class="chip">Git</div>
 
         </div>
-
-
-
-
       </div>
+    </div>
 
 
+    <div class="row" style="background-color:#1d1d1d">
+      <div class="col s12" style="padding-left:10%;padding-right:13%;padding-top:5%">
+        <div class="col s1" style="padding-top:3%;">
+          <label class="vertical grey-text" style='font-size:large'>Recent Work</label>
+        </div>
+        <div class="col s11" >
+          <hr class="myHR">
+          <Br>
+          <h5 class="robo white-text">Client: Bombshell Salon</h5>
+          <h5 class="robo white-text">Agency: Laborem Edge</h5>
+          <h5 class="robo white-text">Project: Official Site , Beauty School Training Manual & Logo</h5>
+          <Br>
+            <hr class="myHR">
+            <Br>
+            <h5 class="robo white-text">Client: Moove App</h5>
+            <h5 class="robo white-text">Project: Official Site, iOS & Android App </h5>
+            <Br>
+          <hr class="myHR">
+          <Br>
+          <h5 class="robo white-text">Client: Sun Block Inc.</h5>
+          <h5 class="robo white-text">Agency: Laborem Edge</h5>
+          <h5 class="robo white-text">Project: Official Site </h5>
+          <Br>
+            <hr class="myHR">
+            <Br>
+            <h5 class="robo white-text">Client: Orinoco Cigars</h5>
+            <h5 class="robo white-text">Agency: Laborem Edge</h5>
+            <h5 class="robo white-text">Project: Official Site </h5>
+            <Br>
+                <hr class="myHR">
+                <Br>
+                <h5 class="robo white-text">Client: Brewrocket</h5>
+                <h5 class="robo white-text">Project: Official Site, Product Development </h5>
+                <Br>
+              <hr class="myHR">
+
+                  <Br>
+                  <h5 class="robo white-text">Client: Ohio House of Representatives</h5>
+                  <h5 class="robo white-text">Agency: International Roll-Call</h5>
+                  <h5 class="robo white-text">Project: Official Site, Product Development </h5>
+                  <Br>
+                <hr class="myHR">
 
 
+        
 
+
+        </div>
+      </div>
     </div>
 
 
    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
    <script src="js/main.js"></script>
+   <script>
+
+   $(document).ready(function(){
+
+     particlesJS.load('particles-js', 'particles.json', function() {
+
+
+
+     });
+
+
+   })
+
+
+   </script>
   </body>
 </html>

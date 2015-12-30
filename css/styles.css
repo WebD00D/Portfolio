@@ -1,10 +1,35 @@
-.roundedFont{
-  font-family: 'Varela Round';
+.titleFont{
+  font-family: 'Josefin Sans';
 }
+
 .myHR{
   background-color:white;
   height:2px;
   border:none;
   margin-left: 40%;
   margin-right: 40%;
+}
+
+h1 {
+  font-size: 120px;
+}
+
+.title{
+font-weight:200;margin:0px;margin-top:12.5%
+}
+.subTitle{
+font-weight:200;margin:0px;font-size:23px;padding-left:5px;s
+}
+
+.vertical{
+    writing-mode:tb-rl;
+    -webkit-transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform:rotate(-90deg);
+    transform: rotate(-90deg);
+    white-space:nowrap;
+    display:block;
+    padding:20px;
+
 }

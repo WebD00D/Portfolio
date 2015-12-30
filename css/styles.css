@@ -1,0 +1,10 @@
+.roundedFont{
+  font-family: 'Varela Round';
+}
+.myHR{
+  background-color:white;
+  height:2px;
+  border:none;
+  margin-left: 40%;
+  margin-right: 40%;
+}

@@ -1,6 +1,13 @@
 .titleFont{
   font-family: 'Josefin Sans';
 }
+#labelBasic{
+  padding-top:3%;
+}
+
+.givemespace{
+  margin:5px;
+}
 
 .myCanvas{
   top: 0;
@@ -37,6 +44,10 @@ font-weight:200;margin:0px;font-size:50px;padding-left:1%;position:relative;
   text-decoration:none;
 
 }
+#mainrow{
+  min-height:500px;
+  padding-left:20%;
+}
 
 .vertical{
     writing-mode:tb-rl;
@@ -52,4 +63,38 @@ font-weight:200;margin:0px;font-size:50px;padding-left:1%;position:relative;
 }
 #theVerticle{
   padding-top:12%;
+}
+
+
+
+@media only screen and (max-width : 1000px) {
+h1{font-size:100px}
+.subTitle{font-size:40px}
+
+}
+@media only screen and (max-width : 900px) {
+h1{font-size:80px}
+.subTitle{font-size:30px}
+}
+@media only screen and (max-width : 800px) {
+h1{font-size:60px}
+.subTitle{font-size:25px}
+}
+@media only screen and (max-width : 700px) {
+h1{font-size:50px}
+.subTitle{font-size:20px}
+}
+
+@media only screen and (max-width : 600px) {
+h1{font-size:40px;}
+h4{font-size:25px;}
+h5{font-size:19px;}
+#mainrow{min-height:300px;}
+.myCanvas{height:300px;}
+.title{font-weight:200;margin:0px;margin-top:35%;margin-left:15px}
+.subTitle{margin-left:15px}
+#theVerticle{padding-top:19%;}
+#basicinfo{padding-left:25px}
+#labelBasic{padding-top:31%;}
+
 }

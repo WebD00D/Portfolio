@@ -4,6 +4,9 @@
 #labelBasic{
   padding-top:3%;
 }
+#labelBasic2{
+  padding-top:3%;
+}
 
 .givemespace{
   margin:5px;
@@ -95,6 +98,7 @@ h5{font-size:19px;}
 .subTitle{margin-left:15px}
 #theVerticle{padding-top:19%;}
 #basicinfo{padding-left:25px}
+#basicinfo2{padding-left:25px}
 #labelBasic{padding-top:31%;}
-
+#labelBasic2{padding-top:31%;}
 }

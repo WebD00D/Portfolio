@@ -7,6 +7,20 @@
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/styles.css">
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-72489749-1', 'auto');
+        ga('send', 'pageview');
+
+
+
+
+
+    </script>
   </head>
   <body>
 
@@ -174,7 +188,7 @@
           <div class="input-field col s12 " style="padding-left:0px" >
             <h6 class="robo" style="color:#333F4D">Message</h6>
             <input id="message" type="text" >
-            <a class="waves-effect waves-light pink right btn btn-large"><small>Send</small></a>
+            <a href="#" data-linkToTrack="http://www.github.com/WebD00D" class="waves-effect waves-light pink right btn btn-large trackThisLink"><small>Send</small></a>
 
           </div>
 
@@ -192,14 +206,21 @@
 
    $(document).ready(function(){
 
-     particlesJS.load('particles-js', 'particles.json', function() {
+     particlesJS.load('particles-js', 'particles.json', function() {});
 
+    $(".trackThisLink").click(function(){
 
+        var linkToTrack = $(this).attr("data-linkToTrack");
+        ga('send','event','outbound','click',linkToTrack,{
 
-     });
+          'transport':'beacon',
+          'hitCallback':function(){document.location = url;}
 
+        });
 
-   })
+    }) // end click
+
+  }) // end docu ready
 
 
    </script>
